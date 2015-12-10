@@ -98,13 +98,14 @@ set $ws3 3: thunderbird
 
 # Right screen
 set $ws2 2: firefox
-
+set $ws4 4: pidgin
 # switch to workspace
 #bindsym $mod+1 workspace 1
 #bindsym $mod+2 workspace 2
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
 #assign [class="Firefox"] $ws2
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
