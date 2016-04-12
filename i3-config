@@ -96,11 +96,12 @@ bindsym $mod+a focus parent
 set $ws1 1: tmux
 set $ws3 3: thunderbird
 set $ws5 5: canvas
+set $ws6 6: SaaS
 
 # Right screen
 set $ws2 2: firefox
 set $ws4 4: pidgin
-set $ws6 6: nautilus
+set $ws7 7: nautilus
 
 # switch to workspace
 #bindsym $mod+1 workspace 1
@@ -111,12 +112,13 @@ bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
 #assign [class="Firefox"] $ws2
 #bindsym $mod+3 workspace 3
 #bindsym $mod+4 workspace 4
 #bindsym $mod+5 workspace 5
 #bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
+#bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
